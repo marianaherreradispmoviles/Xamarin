@@ -9,7 +9,7 @@ namespace HolaMundo
 		{	
 			return new ContentPage { 
 				Content = new Label {
-					Text = "Hola mundo!",
+					Text = "Mariana Herrera - Cta. ",
 					VerticalOptions = LayoutOptions.CenterAndExpand,
 					HorizontalOptions = LayoutOptions.CenterAndExpand,
 				},
