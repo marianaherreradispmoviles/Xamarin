@@ -10,11 +10,12 @@ namespace Actividad3
 			return new ContentPage { 
 				Content = new Label {
 					Text = "Hello, Forms!",
-					VerticalOptions = LayoutOptions.CenterAndExpand,
-					HorizontalOptions = LayoutOptions.CenterAndExpand,
+					VerticalOptions = LayoutOptions.Bottom,
+					HorizontalOptions = LayoutOptions.Left,
+					BackgroundColor = Color.Blue,
+					TextColor = Color.Green
 				},
 			};
 		}
 	}
 }
-
