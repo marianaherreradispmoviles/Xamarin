@@ -9,7 +9,7 @@ namespace Actividad3
 		{	
 			return new ContentPage { 
 				Content = new Label {
-					Text = "Hello, Forms!",
+					Text = "Mariana Herrera Sánchez - 412110971",
 					TextColor = Color.Green,
 					VerticalOptions = LayoutOptions.End,
 					HorizontalOptions = LayoutOptions.Start,
