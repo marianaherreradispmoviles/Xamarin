@@ -7,7 +7,23 @@ namespace Actividad8
 	{
 		public Contenido ()
 		{
+			Label texto = new Label {
+				Text = "Bienvenidos a la Página Contenido",
+				TextColor = Color.Lime
+			};
 
+			// Stacklayout permite apilar los controles verticalmente
+			StackLayout stackLayout = new StackLayout
+			{
+				Children =
+				{
+					texto
+				}
+			};
+
+			// Como esta clase hereda de ContentPage, podemos usar estas propiedades directamente
+			this.Content = stackLayout;
+			this.Padding = new Thickness (5, Device.OnPlatform (20, 5, 5), 5, 5);
 		}
 	}
 }
