@@ -30,11 +30,11 @@ namespace Actividad11
 		public List<Frutas> ObtenListaFrutas()
 		{
 			var lista = new List<Frutas> ();
-
 			lista.Add (new Frutas{Nombre = "Platano", Imagen = "http://www.importancia.org/wp-content/uploads/platano.jpg"});
 			lista.Add (new Frutas{Nombre = "Pina", Imagen = "http://2.bp.blogspot.com/-Bw0n6k40hD0/T-yH2CGcHyI/AAAAAAAAAI8/kZEiZ_sbq2w/s1600/Pi%C3%B1a_con_hojaStevia.jpg"});
-
-
+			lista.Add (new Frutas{Nombre = "Fresas", Imagen = "http://epmghispanic.media.lionheartdms.com/img/croppedphotos/2014/02/04/Fresa_t750x550.png"});
+			lista.Add (new Frutas{Nombre = "Sandia", Imagen = "http://universonatural.social/wp-content/uploads/2015/09/sandia.jpg"});
+			lista.Add (new Frutas{Nombre = "Kiwi", Imagen = "http://benefrut.com.mx/site/wp-content/uploads/2015/07/kiwi-2.jpg"});
 			return lista;
 		}
 	}
