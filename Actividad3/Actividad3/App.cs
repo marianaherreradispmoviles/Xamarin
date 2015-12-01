@@ -9,7 +9,7 @@ namespace Actividad3
 		{	
 			return new ContentPage { 
 				Content = new Label {
-					Text = "Mariana Herrera Sánchez Cuenta 412110971",
+					Text = "Mariana Herrera Sánchez - Cuenta 412110971",
 					TextColor = Color.Green,
 					VerticalOptions = LayoutOptions.End,
 					HorizontalOptions = LayoutOptions.Start,
