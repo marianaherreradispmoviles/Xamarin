@@ -19,7 +19,7 @@ namespace Actividad9
 			boton.Clicked += (sender, e) => {
 
 				if(usuario.Text.Equals("usuario")){
-					Navigation.PushAsync(new Contenido());
+					this.Navigation.PushAsync(new Contenido());
 				}
 			};
 
