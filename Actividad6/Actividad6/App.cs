@@ -8,17 +8,17 @@ namespace Actividad6
 		public static Page GetMainPage ()
 		{	
 			Label texto = new Label {
-				Text = "texto va a cambiar",
+				Text = "Texto va a Cambiar",
 				TextColor = Color.Blue
 			};
 
 			Button boton = new Button
 			{
-				Text = "Click para cambiar el texto"
+				Text = "Click para Cambiar el Texto"
 			};
 
 			boton.Clicked += (sender, e) => {
-				texto.Text = "haz hecho click en el botón";
+				texto.Text = "Haz hecho Click en el Botón";
 				texto.TextColor = Color.Green;
 			};
 
